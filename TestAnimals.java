@@ -89,12 +89,12 @@ public class TestAnimals {
     	  
     	  System.out.println("CAT");
     	  Cat cat=new Cat();
-    	  fish.setName("Fluffy");
-    	  System.out.println("The cat's name is "+fish.getName());
+    	  cat.setName("Fluffy");
+    	  System.out.println("The cat's name is "+cat.getName());
     	  cat.walk();
     	  cat.eat();
-    	  fish.setName("isMoose");
-    	  System.out.println("The cat's name is "+fish.getName());
+    	  cat.setName("isMoose");
+    	  System.out.println("The cat's name is "+cat.getName());
     	  
     	  System.out.println("SPIDER");
     	  Spider spider=new Spider();
