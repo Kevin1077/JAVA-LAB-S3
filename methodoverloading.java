@@ -2,7 +2,7 @@ package sample;
 
 import java.util.Scanner;
 
-public class methodoverloading {
+public class Methodoverloading {
  public static void main(String[]args) {
 	 
   Scanner sc=new Scanner(System.in);
