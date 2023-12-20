@@ -15,7 +15,7 @@ class Numbermanager{
 			wait();
 		}
 		int squre=(int)Math.pow(generatedNumber, 2);
-		System.out.println("The cube of "+numberGenerated+" is "+squre);
+		System.out.println("The squre of "+numberGenerated+" is "+squre);
 		numberGenerated=false;
 	}
 	public synchronized void printOddNumbers() throws InterruptedException {
